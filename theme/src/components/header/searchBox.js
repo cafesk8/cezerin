@@ -55,7 +55,7 @@ export default class SearchBox extends React.Component {
 		return (
 			<div
 				className={
-					'search-box ' + this.props.className + (hasFocus ? ' has-focus' : '')
+					'test-deploy search-box ' + this.props.className + (hasFocus ? ' has-focus' : '')
 				}
 			>
 				<input
